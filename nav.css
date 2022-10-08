@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    color: #fff;
+}
+
+::selection {
+    color: red;
+    background: purple;
+}
+
+.item:hover {
+    background: rgb(235, 81, 81);
+}
+
+/* waebrmiweombrpoiawembropa */
+
+nav {
+    /* background: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 6px;
+    margin-right: 20px;
+
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.naslov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: gray;
+}
+
+.active {
+    color: gray;
+}
